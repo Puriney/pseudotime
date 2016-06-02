@@ -3,8 +3,7 @@
 ---
 
 **Where is the data**
-
-Put the raw data into *raw* folder first.
+When first time to use: create a folder called *raw*, and put our raw data into *raw* folder first.
 
 **Where are the functional code**
 
