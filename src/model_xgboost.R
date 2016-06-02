@@ -125,3 +125,5 @@ cat("Report: LogLoss on unseen test dataset of xgboost is ")
 cat(MultiLogLoss(te_PredProbM, te_yInt), '\n')
 cat('END\n')
 sink()
+
+te_PredTime <- apply(te_PredProbM, 1, function(x) crossprod(x, 1:num_classes))

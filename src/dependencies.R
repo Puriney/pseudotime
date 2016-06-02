@@ -20,8 +20,11 @@ require(xgboost)
 require(pROC)
 # require(doMC)
 require(dplyr)
+require(Rtsne)
+
 # Env
 wkdir <- getwd()
+
 rawdir <- file.path(wkdir, 'raw')
 figdir <- file.path(wkdir, 'fig')
 if (!dir.exists(figdir)) dir.create(figdir)
